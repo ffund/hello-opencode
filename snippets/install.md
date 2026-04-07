@@ -1,3 +1,5 @@
+
+
 ## Installing OpenCode
 
 OpenCode is open source software. It is developed and distributed at [https://github.com/anomalyco/opencode](https://github.com/anomalyco/opencode).

@@ -12,6 +12,8 @@ While there are several widely used CLI agent harnesses, we will use OpenCode, f
 
 * It uses a bring-your-own-provider model. You are not locked into one model company, one subscription, or one billing path. You can connect different providers from a *very* extensive list, choose models based on cost or capability, and switch when your needs change.
 * It works well in teaching and experimentation settings because students can combine sponsored access, paid accounts, and free providers.
+
+
 ## Installing OpenCode
 
 OpenCode is open source software. It is developed and distributed at [https://github.com/anomalyco/opencode](https://github.com/anomalyco/opencode).
