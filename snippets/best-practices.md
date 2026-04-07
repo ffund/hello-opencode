@@ -30,7 +30,17 @@ Here are some other "rules" that I think make AI coding easier:
 
 Some other helpful practices include:
 
-Switch between models (small models for small tasks, large models for complex tasks). Claude models are "ordered". From *simplest/fastest/cheapest* to *most capable for complex tasks/slowest/most expensive*, they are: Haiku, Sonnet, Opus.
+Switch between models (small models for small tasks, large models for complex tasks). Claude models are "ordered". From *simplest/fastest/cheapest* to *most capable for complex tasks/slowest/most expensive*, they are: Haiku, Sonnet, Opus. Current [costs](https://portkey.ai/models) in Portkey are:
+
+| Model ID | Input $/M | Output $/M |
+| --- | ---: | ---: |
+| `claude-haiku-4-5` | $1.00 | $5.00 |
+| `claude-sonnet-4-5` | $3.00 | $15.00 |
+| `claude-sonnet-4-6` | $3.00 | $15.00 |
+| `claude-opus-4-5` | $5.00 | $25.00 |
+| `claude-opus-4-6` | $5.00 | $25.00 |
+
+so you can stretch your budget farther if you let Haiku handle simple tasks, for example.
 
 Write and maintain an `AGENTS.md`, but keep it small. For example, instead of telling the model at the beginning of each session:
 
@@ -53,6 +63,4 @@ Validation requirements:
 you could put all this in an `AGENTS.md` file in the project root. (You can commit this to Git, too!) The model will read this in at the beginning of a session.
 
 Finally, keep context clean. The entire conversation history is sent to the model as input each time you add a prompt. The cost increases and the model quality degrades as this history gets longer. Start a new session when you are starting a new task; this usually improves results, lowers cost, and makes it easier for the model to stay aligned with your actual intent.
-
-
 
