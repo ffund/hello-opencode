@@ -3,6 +3,8 @@
 
 To support your work in this class, we have arranged access to Anthropic models (Claude Haiku 4.5, Claude Sonnet 4.5, Claude Open 4.5, Claude Sonnet 4.6, Claude Open 4.6) via NYU's AI gateway on Portkey. 
 
+The intent is for you to use AI coding to integrate your already-implemented ML feature into the open-source software service that you built it for. Since the open-source software may be a large unfamiliar code base, potentially in a language you are unfamiliar with, and writing software is not a major objective of this course, it is reasonable to offload some of this task onto an AI agent.
+
 We have budgeted $20/week per student. The limit resets weekly, you cannot use more than $20 in one week even if you use less than $20 in some other weeks.
 
 

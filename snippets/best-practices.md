@@ -2,7 +2,7 @@
 
 ## Best practices for modifying large codebases with AI agents
 
-Finally, it's worth noting some best practices for coding with AI agents. The following diagram illustrates a common workflow:
+Now, you are ready to use OpenCode for real work! But first, it's worth noting some best practices for coding with AI agents. The following diagram illustrates a common workflow:
 
 ![Coding with AI agents - workflow.](images/loop.svg)
 
