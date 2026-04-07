@@ -2,6 +2,10 @@
 
 OpenCode is an open-source AI coding agent that runs in your terminal. You can ask it to inspect files, make changes, run tests, use Git, and report back with evidence about what it actually did.
 
+In this course, you may want to use an AI coding agent like OpenCode to integrate your already-implemented ML feature into the open-source software service that you built it for. Since the open-source software may be a large unfamiliar code base, potentially in a language you are unfamiliar with, and writing software is not a major objective of this course, it is reasonable to offload some of this task onto an AI agent.
+
+--
+
 For AI-assisted coding, there are three widely used workflows: chat, IDE, and CLI. 
 
 * A chat interface is useful for brainstorming, asking questions, comparing approaches, reading about unfamiliar concepts, or sketching out a plan before touching code. But it is not a great option for actual implementation work because the human has to be in the loop and copy code out of the chat, deploy manually, and copy context back into the chat.
@@ -67,8 +71,6 @@ If you *really* hate working at the command line, `opencode` *is* also available
 ## Using OpenCode with Portkey
 
 To support your work in this class, we have arranged access to Anthropic models (Claude Haiku 4.5, Claude Sonnet 4.5, Claude Open 4.5, Claude Sonnet 4.6, Claude Open 4.6) via NYU's AI gateway on Portkey. 
-
-The intent is for you to use AI coding to integrate your already-implemented ML feature into the open-source software service that you built it for. Since the open-source software may be a large unfamiliar code base, potentially in a language you are unfamiliar with, and writing software is not a major objective of this course, it is reasonable to offload some of this task onto an AI agent.
 
 We have budgeted $20/week per student. The limit resets weekly, you cannot use more than $20 in one week even if you use less than $20 in some other weeks.
 
