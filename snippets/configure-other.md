@@ -105,7 +105,7 @@ Google provides a free tier for the Gemini API. To use it in OpenCode, create an
 
    ![Google AI Studio API Keys page.](images/gemini-01-api-keys.png)
 
-2. If you do not have a Google Cloud project, create one when Google AI Studio prompts you. The API key belongs to this project.
+2. Create a Google Cloud project when Google AI Studio prompts you. The API key belongs to this project. 
 
    ![Google AI Studio showing that no Cloud projects are available.](images/gemini-02-no-cloud-projects.png)
 
