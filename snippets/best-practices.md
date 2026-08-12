@@ -17,7 +17,7 @@ Virtually every session should start in "plan" mode (use the Tab key in OpenCode
 
 Furthermore, to reduce the human effort required in the "review" stage, you will probably want to break the implementation up into tiny, individually verifiable chunks. You'll go through that entire workflow illustrated above - from "plan" to "merge" for each tiny chunk before moving on to the next. This makes both "plan" (communicating your intent) and "review" (making sure the implementation matches your intent and doesn't take "shortcuts") much easier.
 
-In between "plan" and "review", you will want the agent to be able to implement, deploy, and verify its own work. You *don't* want human effort to be required in that stage, since the model may iterate on "implement > deploy > verify" several times, and it should be able to do this independently without your intervention. You will give it instructions to access your "dev" deployment (e.g. "Use bash to SSH to cc@A.B.C.D where the service is deployed in a Docker container") so that it can test.
+In between "plan" and "review", you will want the agent to be able to implement, deploy, and verify its own work. You *don't* want human effort to be required in that stage, since the model may iterate on "implement > deploy > verify" several times, and it should be able to do this independently without your intervention. You can give it instructions to access your "dev" deployment (e.g. "Use bash to SSH to cc@A.B.C.D where the service is deployed in a Docker container") so that it can test.
 
 Here are some other "rules" that I think make AI coding easier:
 
@@ -30,7 +30,7 @@ Here are some other "rules" that I think make AI coding easier:
 
 Some other helpful practices include:
 
-Switch between models (small models for small tasks, large models for complex tasks). Claude models are "ordered". From *simplest/fastest/cheapest* to *most capable for complex tasks/slowest/most expensive*, they are: Haiku, Sonnet, Opus. Current [costs](https://portkey.ai/models) in Portkey are:
+Switch between models (small models for small tasks, large models for complex tasks). For example, Claude models are "ordered". From *simplest/fastest/cheapest* to *most capable for complex tasks/slowest/most expensive*, they are: Haiku, Sonnet, Opus. Current [costs](https://portkey.ai/models) in Portkey are:
 
 | Model ID | Input $/M | Output $/M |
 | --- | ---: | ---: |
@@ -42,7 +42,7 @@ Switch between models (small models for small tasks, large models for complex ta
 
 so you can stretch your budget farther if you let Haiku handle simple tasks, for example.
 
-Write and maintain an `AGENTS.md`, but keep it small. For example, instead of telling the model at the beginning of each session:
+Write and maintain an `AGENTS.md` to help you keep context across sessions, but keep it small. For example, instead of telling the model at the beginning of each session:
 
 ```
 You are working on the BabyBuddy repo.
