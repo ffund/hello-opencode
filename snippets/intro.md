@@ -2,8 +2,6 @@
 
 OpenCode is an open-source AI coding agent that runs in your terminal. You can ask it to inspect files, make changes, run tests, use Git, and report back with evidence about what it actually did.
 
-In this course, you may want to use an AI coding agent like OpenCode to integrate your already-implemented ML feature into the open-source software service that you built it for. Since the open-source software may be a large unfamiliar code base, potentially in a language you are unfamiliar with, and writing software is not a major objective of this course, it is reasonable to offload some of this task onto an AI agent.
-
 --
 
 For AI-assisted coding, there are three widely used workflows: chat, IDE, and CLI. 
